@@ -50,7 +50,7 @@ const Login = (props) => {
                     className="form-control form-control-lg"
                     type="email"
                     placeholder="Email"
-                    value={email}
+                    defaultValue={email}
                     onChange={changeEmail}
                   />
                 </fieldset>
@@ -60,7 +60,7 @@ const Login = (props) => {
                     className="form-control form-control-lg"
                     type="password"
                     placeholder="Password"
-                    value={password}
+                    defaultValue={password}
                     onChange={changePassword}
                   />
                 </fieldset>
